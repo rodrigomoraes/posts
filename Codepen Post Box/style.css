@@ -1,0 +1,201 @@
+:root{
+    --main-color:#131417;
+    --sec-color:#1f2229;
+    --white:#fff;
+
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+}
+
+.single-item{
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+line-height: 1.5;
+font-size: 15px;
+font-weight: 400;
+--minor-offset: 0%;
+--position-offset: 0%;
+--offset: calc(var(--position-offset, 0%) + var(--minor-offset, 0%));
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+color: #717790;
+position: relative;
+width: 100%;
+height: 100%;
+z-index: 1;
+}
+
+.header{
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+line-height: 1.5;
+font-size: 15px;
+font-weight: 400;
+--minor-offset: 0%;
+--position-offset: 0%;
+--offset: calc(var(--position-offset, 0%) + var(--minor-offset, 0%));
+-webkit-box-direction: normal;
+color: #717790;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+margin-top: 1rem;
+-webkit-box-ordinal-group: 4;
+order: 3;
+}
+
+
+.single-item .authorAvatar{
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+line-height: 1.5;
+font-size: 15px;
+font-weight: 400;
+--minor-offset: 0%;
+--position-offset: 0%;
+--offset: calc(var(--position-offset, 0%) + var(--minor-offset, 0%));
+-webkit-box-direction: normal;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+color: #76daff;
+display: block;
+margin-right: 0.75rem;
+position: relative;
+z-index: 1;
+}
+
+.titleAndAuthor{
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+line-height: 1.5;
+font-size: 15px;
+font-weight: 400;
+--minor-offset: 0%;
+--position-offset: 0%;
+--offset: calc(var(--position-offset, 0%) + var(--minor-offset, 0%));
+-webkit-box-direction: normal;
+color: #717790;
+padding: 0;
+box-sizing: border-box;
+-webkit-box-flex: 1;
+flex: 1;
+margin: 0 1rem 0 0;
+width: 95%;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+h2.title{
+    --minor-offset: 0%;
+--position-offset: 0%;
+--offset: calc(var(--position-offset, 0%) + var(--minor-offset, 0%));
+-webkit-box-direction: normal;
+color: #717790;
+padding: 0;
+box-sizing: border-box;
+line-height: 1.2;
+font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+font-weight: 900;
+font-size: 17px;
+margin: 0 0 0.25rem;
+display: block;
+width: 95%;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.single-item .author{
+    --minor-offset: 0%;
+--position-offset: 0%;
+--offset: calc(var(--position-offset, 0%) + var(--minor-offset, 0%));
+-webkit-box-direction: normal;
+white-space: nowrap;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: #c0c3d0;
+font: inherit;
+font-size: 14px;
+line-height: 1.2;
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+}
+
+.single-item .authorName{
+    --minor-offset: 0%;
+--position-offset: 0%;
+--offset: calc(var(--position-offset, 0%) + var(--minor-offset, 0%));
+-webkit-box-direction: normal;
+font: inherit;
+font-size: 14px;
+line-height: 1.2;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+color: inherit;
+display: inline-block;
+position: relative;
+z-index: 1;
+transition: 0.2s ease all;
+max-width: 100%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.ItemActions_menuSmall-3tff5{
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+line-height: 1.5;
+font-size: 15px;
+font-weight: 400;
+--minor-offset: 0%;
+--position-offset: 0%;
+--offset: calc(var(--position-offset, 0%) + var(--minor-offset, 0%));
+-webkit-box-direction: normal;
+color: #717790;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+position: relative;
+width: fit-content;
+border-radius: 4px;
+display: flex;
+margin-right: 5px;
+}
+
+.thumbnail-wrap{
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+line-height: 1.5;
+font-size: 15px;
+font-weight: 400;
+--minor-offset: 0%;
+--position-offset: 0%;
+--offset: calc(var(--position-offset, 0%) + var(--minor-offset, 0%));
+-webkit-box-direction: normal;
+color: #717790;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+opacity: 0.99;
+position: relative;
+height: 0;
+border-radius: 6px;
+padding-top: 56.25%;
+overflow: hidden;
+background: #444857;
+background-size: cover;
+}
